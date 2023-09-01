@@ -200,13 +200,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 95px;
+  margin-top: 80px;
   height: 252px;
   position: relative;
   left: 12%;
 }
 .first {
-  width: 300px;
+  width: 280px;
   margin: 18px;
   display: flex;
   justify-content: center;
@@ -217,7 +217,7 @@ html {
   z-index: 1;
 }
 .second {
-  width: 300px;
+  width: 280px;
   margin: 18px;
   display: flex;
   justify-content: center;
@@ -228,7 +228,7 @@ html {
   z-index: 1;
 }
 .third {
-  width: 300px;
+  width: 280px;
   margin: 18px;
   display: flex;
   justify-content: center;
@@ -273,7 +273,7 @@ html {
 }
 .heading {
   width: 95%;
-  margin: 10px 31px;
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -896,6 +896,7 @@ color: rgb(72, 72, 255);
 .goog p:hover{
   color: rgb(5, 78, 215);
 }
+
 
 
 
