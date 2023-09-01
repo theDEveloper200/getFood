@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+</head>
+
+<body>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+        body {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+            background-size: 300% 300%;
+            animation: color 12s ease-in-out infinite;
+        }
+        @keyframes color {
+            0% {
+                background-position: 0 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0 50%;
+            }
+        }
+        .form {
+            width: 34%;
+            position: relative;
+            left: 30%;
+            margin-top: 60px;
+            height: 70vh;
+            /* top: 35%; */
+            /* margin: 20px; */
+            padding: 25px;
+            border: 3px solid #888282;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            box-shadow: 0px 0px 10px #ccc;
+
+
+        }
+        h1 {
+            width: 70%;
+            font-size: 3rem;
+            text-align: center;
+            left: 15%;
+            position: relative;
+            text-decoration: underline;
+            margin-top: 0px;
+        }
+        .check {
+            width: 60%;
+            display: flex;
+            margin: 0px;
+            position: relative;
+            /* justify-content: center; */
+            left: 20%;
+        }
+        .check input {
+            position: relative;
+            width: 4%;
+            /* margin: 10px; */
+            left: 0;
+            /* margin-left: -63px; */
+            /* right: 94%; */
+        }
+        .name {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .name input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            /* right: 19%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+            outline: none;
+        }
+        .name img {
+            width: 23px;
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .email {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .email input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            /* right: 19%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+            outline: none;
+        }
+        .email img {
+            width: 23px;
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .mobile {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .mobile input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            /* right: 19%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+            outline: none;
+        }
+        .mobile img {
+            width: 23px;
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        h2 {
+            font-size: 1.5rem;
+            width: 100%;
+            margin: 0;
+            margin-top: 2px;
+        }
+        .gender {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        h4 {
+            font-size: 1.5rem;
+            width: 27%;
+            /* position: relative; */
+            /* left: 10%; */
+            margin: 3px;
+            color: #848080;
+        }
+        .gender select {
+            width: 70%;
+            outline: none;
+            border: none;
+            font-size: 1.5rem;
+            opacity: 0.6;
+        }
+        .username {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .username input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            /* right: 19%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+        }
+        .username img {
+            width: 23px;
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .prwd1 {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .prwd1 input {
+            width: 87%;
+            position: relative;
+            left: 0%;
+            /* right: 46%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+            border-radius: 20px;
+            outline: none;
+        }
+        .prwd2 {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .prwd2 input {
+            width: 87%;
+            position: relative;
+            left: 0%;
+            /* right: 46%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+            border-radius: 20px;
+            outline: none;
+        }
+        .prwd1 img {
+            width: 26px;
+            margin: 4px;
+            padding: 0px;
+            position: relative;
+            opacity: 0.5;
+        }
+        .prwd2 img {
+            width: 26px;
+            margin: 4px;
+            padding: 0px;
+            position: relative;
+            opacity: 0.5;
+        }
+        .address,.pincode {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+
+        }
+        .address input,.pincode input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            /* right: 19%; */
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            margin: 0px;
+        }
+        .address img {
+            width: 23px;
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        button {
+            background-color: rgb(78, 78, 255);
+            color: white;
+            width: 90px;
+            position: relative;
+            font-size: 1.3rem;
+            left: 40%;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 6px;
+        }
+        button:hover {
+            background-color: rgb(169, 169, 244);
+        }
+
+        @media screen and (max-width:965px) {
+
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 6%;
+                width: 85%;
+            }
+            .pincode {
+                width: 85%;
+                left: 6%;
+            }
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 90%;
+
+            }
+            .check {
+                width: 80%;
+                left: 10%;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            .form {
+                width: 60%;
+                left: 12%;
+            }
+
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 6%;
+                width: 95%;
+            }
+
+            .pincode {
+                width: 95%;
+                left: 6%;
+            }
+
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 88%;
+
+            }
+
+        }
+        @media screen and (max-width:490px) {
+            .form {
+                width: 70%;
+                left: 10%;
+            }
+
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 3%;
+                width: 96%;
+            }
+
+            .pincode {
+                left: 3%;
+                width: 96%;
+            }
+
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 88%;
+
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+        }
+    </style>
+    <form action="singnup">
+        <label class="form">
+            <h1>Sign-up</h1>
+            <div class="name">
+                <input type="text" placeholder="Name">
+                <img src="img/username-5.png">
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email-id">
+                <img src="img/email.png">
+            </div>
+            <div class="mobile">
+                <input type="number" placeholder="Mobile No.">
+                <img src="img/phone.png">
+            </div>
+            <div class="gender">
+                <h4>Gender </h4>
+                <select name="gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="username">
+                <input type="text" class="name" placeholder="Username">
+                <img src="img/username.png">
+            </div>
+            <div class="prwd1">
+                <input type="password" id="psd1" placeholder="Password">
+                <img src="img/close.icon.png" id="prd1">
+            </div>
+            <div class="prwd2">
+                <input type="password" id="psd2" placeholder="Confirm-password">
+                <img src="img/close.icon.png" id="prd2">
+            </div>
+            <div class="address">
+                <input type="text" class="name" placeholder="Address">
+                <img src="img/address.png">
+            </div>
+            <div class="pincode">
+                <input type="number" class="name" placeholder="Pincode">
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <h2>Given information is Correct</h2>
+            </div>
+            <button>Sign-up</button>
+        </label>
+    </form>
+    <script>
+
+        let psd1 = document.getElementById("psd1");
+        let prd1 = document.getElementById("prd1");
+        let psd2 = document.getElementById("psd2");
+        let prd2 = document.getElementById("prd2");
+
+        prd1.onclick = function () {
+            if (psd1.type == "password") {
+                psd1.type = "text";
+                prd1.src = "img/open.icon.png";
+            }
+            else {
+                psd1.type = "password";
+                prd1.src = "img/close.icon.png";
+            }
+        }
+
+        prd2.onclick = function () {
+            if (psd2.type == "password") {
+                psd2.type = "text";
+                prd2.src = "img/open.icon.png";
+            }
+            else {
+                psd2.type = "password";
+                prd2.src = "img/close.icon.png";
+            }
+        }
+
+        function matchPassword() {
+            var psd1 = document.getElementById("psd1");
+            var psd2 = document.getElementById("psd2");
+            if (pw1 != pw2) {
+                alert("Passwords did not match");
+            }
+        }  
+    </script>
+</body>
+
+</html>

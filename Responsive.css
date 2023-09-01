@@ -1,0 +1,1269 @@
+@media screen and (max-width: 2180px) {
+  .background{
+    background-size: 2200px 474px;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 380px;
+  }
+  .sl-1{
+    font-size: 3rem;
+  }
+  .see-more-btn {
+    margin: 15px 300px;
+    width: 270px;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .background{
+   background-size: 1810px 474px;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 300px;
+  } 
+}
+@media screen and (max-width: 1600px) {
+  .sl-1{
+    font-size: 2rem;
+  }
+  .see-more-btn {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 250px;
+  } 
+  .sl-1{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .login-form{
+    left:65%;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 2rem;
+    position: relative;
+    border: 5px solid white;
+    cursor: pointer;
+  }
+  .sl-1{
+    font-size: 2rem;
+  }
+  .see-more-btn {
+    font-size: 2rem;
+    margin: 15px 300px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1083px) {
+  .login-form{
+    left:62%;
+  }
+  .see-more-btn {
+    margin: 15px 230px;
+    width: 160px;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .login-form{
+    left: 58%;
+  }
+  .collection {
+    width: 85%;
+    left: 6%;
+  }
+  .location-1 {
+    width: 85%;
+    left: 7%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    margin-right: 120px;
+}
+  .login-form{
+    left:55%;
+  }
+  .ordering {
+    width: 80%;
+    height: 260px;
+    left: 10%;
+  }
+  .heading2 {
+    width: 76%;
+    left: 10%;
+  }
+  .Search {
+    width: 50%;
+    margin-left: 28%;
+  }
+  .collection {
+    width: 95%;
+    left: 2%;
+  }
+  .down3-section {
+    left: 12%;
+  }
+  .f1 {
+    width: 90%;
+    padding: 26px;
+  }
+  .down3-section {
+    left: 10%;
+    height: 45vh;
+}
+}
+@media screen and (max-width: 810px) {
+  .navbar{
+    margin-right: 100px;
+  }
+  .login-form{
+    left:48%;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 160px;
+    margin: 9px;
+    padding: 7px;
+  }
+  .sl-1{
+    font-size: 1.7rem;
+  }
+  .see-more-btn {
+    margin: 15px 200px;
+    width: 150px;
+}
+.down3-section {
+  left: 10%;
+  height: 48vh;
+}
+}
+@media screen and (max-width: 715px) {
+  .navbar{
+    margin-right: 90px;
+  }
+  .login-form{
+    left:44%;
+  }
+  .background {
+    max-width: 100%;
+    background-size: 725px 450px;
+  }
+  .container {
+    height: 74vh;
+  }
+  .heading1 {
+    font-size: 7rem;
+    width: 100%;
+    margin-top: 66px;
+    position: relative;
+    left: 0%;
+  }
+  .heading2 {
+    font-size: 3.5rem;
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-top: 0%;
+    margin-top: 23px;
+    margin-left: 0;
+  }
+  .Search {
+    width: 70%;
+    position: relative;
+    left: 12%;
+    margin-left: 0;
+  }
+  .Search input {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 0;
+  }
+  .slm {
+    width: 26px;
+    margin-left: 14px;
+  }
+  .sr-bar {
+    width: 26px;
+  }
+  .lo-bar {
+    width: 19px;
+  }
+
+  .ordering {
+    width: 90%;
+    /* flex-direction: column; */
+    margin-top: 75px;
+    height: auto;
+    position: relative;
+    left:5%;
+  }
+
+  .first {
+    width: 33%;
+    position: relative;
+    margin: 10px 8px;
+  }
+  .sec1 img {
+    background-size: 150px 120px;
+    /* width: 10%; */
+    height: 80%;
+  }
+  .second {
+    width: 33%;
+    position: relative;
+    margin: 10px 8px;
+  }
+  .third {
+    width: 33%;
+    position: relative;
+    margin: 10px 8px;
+  }
+  .sub-heading {
+    font-size: 2.5rem;
+    height: 28%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .collection {
+    width: 96%;
+    height: auto;
+    right: 25%;
+    position: relative;
+  }
+  .heading {
+    width: 90%;
+    position: relative;
+    /* right: 3%; */
+  }
+  .sub-heading1 {
+    font-size: 4.5rem;
+  }
+  .sub-heading2 p {
+    font-size: 2.4rem;
+  }
+  .sections {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 0;
+    position: relative;
+    left: 5%;
+    height: auto;
+  }
+  .section-1 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-2 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-3 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-4 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .down-sec-1 {
+    font-size: 2.5rem;
+  }
+  .down-sec-2 {
+    font-size: 2rem;
+  }
+  .location-1 {
+    width: 94%;
+    height: auto;
+    position: absolute;
+    left: 3%;
+  }
+  .sub-heading3 {
+    font-size: 2rem;
+  }
+  .sub-loc {
+    width: 100%;
+    height: auto;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 172px;
+    margin: 6px;
+    padding: 4px;
+  }
+  .sl-1 {
+    font-size: 1.6rem;
+  }
+  .see-more-btn {
+    font-size: 1.6rem;
+    width: 170px;
+    margin: 6px;
+    padding: 4px;
+  }
+  .down-section {
+    width: 80%;
+    height: auto;
+    margin-top: 80%;
+    position: relative;
+    left: 10%;
+  }
+  .dsc1 {
+    width: 20%;
+  }
+  .dsc1 img {
+    width: 20%;
+  }
+  .form {
+    width: 75%;
+  }
+  .f1 {
+    width: 82%;
+  }
+  .f1 input {
+    width: 98%;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+  .submit {
+    width: 40%;
+    position: relative;
+    right: 40%;
+    font-size: 1.5rem;
+  }
+  .down2-section {
+    width: 92%;
+    position: relative;
+    left: 3%;
+    height: auto;
+  }
+  .dosc1 {
+    font-size: 3rem;
+    position: relative;
+    left: 5%;
+    width: 90%;
+  }
+  .dosc2 {
+    position: relative;
+    left: 5%;
+    width: 90%;
+  }
+  .dosc21 {
+    font-size: 2rem;
+    position: relative;
+    width: 90%;
+  }
+  .down3-section {
+    width: 82%;
+    position: relative;
+    left: 5%;
+  }
+  .dosp {
+    width: 100%;
+    flex-direction: row;
+  }
+  .dosp1 {
+    width: 90%;
+  }
+  .dosp2 {
+    width: 90%;
+  }
+  .dos1 {
+    width: 90%;
+    padding: 3px;
+    margin: 4px;
+  }
+  .dos1-3 {
+    font-size: 1.9rem;
+  }
+  .dos1-2 {
+    font-size: 1.6rem;
+  }
+  .footer {
+    left: 8%;
+  }
+  .text-footer {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 645px) {
+  .navbar{
+    margin-right: 80px;
+  }
+  .navlist li a{
+    font-size: 1.6rem;
+  }
+  .l-btn{
+    font-size: 1.6rem;
+  }
+  .login-form{
+    left:38%;
+  }
+  .ordering {
+    right: 24%;
+  }
+  .collection {
+    right: 28%;
+  }
+  .location-1 {
+    right: 2%;
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    height: 430px;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 130px;
+    margin: 6px;
+    padding: 4px;
+  }
+  .see-more-btn {
+    font-size: 1.6rem;
+    width: 120px;
+    margin: 6px;
+    padding: 4px;
+  }
+  .sub-heading1 {
+    font-size: 3.5rem;
+  }
+  .sub-heading2 p {
+    font-size: 1.8rem;
+  }
+  .down-section {
+    right: 15%;
+    margin-top: 90%;
+  }
+  .down2-section {
+    left: 3%;
+  }
+  .down3-section {
+    right: 18%;
+    position: relative;
+  }
+  .dos1-3 {
+    font-size: 1.6rem;
+  }
+  .dos1-2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 595px) {
+  .navbar {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+  .login-form{
+    left:35%;
+    width:290px;
+    height:215px;
+  }
+  .submit {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .login-form{
+    left:33%;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .heading2 {
+    font-size: 3rem;
+  }
+  .Search {
+    left: 15%;
+  }
+  .Search input {
+    font-size: 1.7rem;
+  }
+  .down-section {
+    margin-top: 98%;
+  }
+  .down2-section {
+    left: 2%;
+  }
+}
+@media screen and (max-width: 510px) {
+  .login-form{
+    left:28%;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .heading2 {
+    font-size: 3rem;
+  }
+  .Search {
+    left: 15%;
+  }
+  .Search input {
+    font-size: 1.7rem;
+  }
+  .down-section {
+    margin-top: 110%;
+  }
+  .down2-section {
+    left: 3%;
+  }
+  .dosc21 {
+    font-size: 1.7rem;
+    padding: 12px;
+  }
+  .down-sec-1 {
+    font-size: 2rem;
+  }
+  .down-sec-2 {
+    font-size: 1.6rem;
+  }
+  .sl-1 {
+    font-size: 1.4rem;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 105px;
+  }
+  .see-more-btn {
+    font-size: 1.5rem;
+    width: 103px;
+  }
+
+}
+@media screen and (max-width: 475px) {
+  .login-form{
+    left:22%;
+  }
+  .background {
+    max-width: 100%;
+    background-size: 580px 410px;
+  }
+  .ordering {
+    margin-top: 110px;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+  .heading1 {
+    font-size: 6rem;
+  }
+  .heading2 {
+    font-size: 2rem;
+  }
+  .Search {
+    left: 15%;
+  }
+  .lo-bar {
+    width: 15px;
+  }
+  .sr-bar {
+    width: 18px;
+  }
+  .Search input {
+    font-size: 1.5rem;
+  }
+  .collection {
+    right: 40%;
+    margin-top: 0px;
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    height: 410px;
+  }
+  .down-section {
+    left: 2%;
+    margin-top: 118%;
+  }
+  .f1 input{
+    width: 95%;
+    left:0%;
+  }
+  .dsc1 img {
+    display: none;
+  }
+  .form {
+    width: 90%;
+  }
+  .submit {
+    left: 30%;
+  }
+  .down3-section {
+    left: 3%;
+    width: 96%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .navbar {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+  .login-form{
+    left:10%;
+  }
+  .ordering {
+    margin-top: 110px;
+  }
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+  .collection {
+    margin-top: 0px;
+  }
+  .down-section {
+    margin-top: 122%;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 95px;
+  }
+  .sl-1 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .background {
+    max-width: 100%;
+    background-size: 420px 340px;
+  }
+  .heading1 {
+    font-size: 4rem;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    left: 0%;
+  }
+  .heading2 {
+    font-size: 2rem;
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-top: 0%;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .Search {
+    width: 70%;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  .Search input {
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  .slm {
+    width: 15px;
+    margin-left: 10px;
+  }
+  .sr-bar {
+    width: 20px;
+  }
+  .lo-bar {
+    width: 15px;
+  }
+  .drd {
+    width: 8px;
+  }
+  .ordering {
+    width: 90%;
+    /* flex-direction: column; */
+    margin-top: 100px;
+    height: auto;
+    position: relative;
+    right: 40%;
+  }
+
+  .first {
+    width: 33%;
+    position: relative;
+    margin: 4px 5px;
+  }
+  .sec1 img {
+    background-size: 150px 120px;
+    /* width: 10%; */
+    height: 80%;
+  }
+  .second {
+    width: 33%;
+    position: relative;
+    margin: 4px 5px;
+  }
+  .third {
+    width: 33%;
+    position: relative;
+    margin: 4px 5px;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+    height: 28%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .container {
+    height: 52vh;
+  }
+  .collection {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .heading {
+    width: 90%;
+  }
+  .sub-heading1 {
+    font-size: 2.8rem;
+  }
+  .sub-heading2 p {
+    font-size: 1.2rem;
+  }
+  .sections {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 0;
+    position: relative;
+    left: 5%;
+    height: auto;
+  }
+  .section-1 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-2 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-3 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .section-4 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    height: 412px;
+  }
+  .down-sec-1 {
+    font-size: 2rem;
+  }
+  .down-sec-2 {
+    font-size: 1.5rem;
+  }
+  .location-1 {
+    width: 94%;
+  }
+  .sub-heading3 {
+    font-size: 2rem;
+  }
+  .sub-loc {
+    width: 100%;
+    height: auto;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 95px;
+    margin: 5px;
+    padding: 2px;
+  }
+  .sl-1 {
+    font-size: 1.6rem;
+  }
+  .see-more-btn {
+    font-size: 1.6rem;
+    width: 70px;
+    margin: 2px;
+    padding: 2px;
+  }
+  .down-section {
+    width: 90%;
+    height: auto;
+    margin-top: 160%;
+    position: relative;
+    right: 25%;
+  }
+  .dsc1 {
+    width: 20%;
+  }
+  .dsc1 img {
+    width: 20%;
+  }
+  .form {
+    width: 90%;
+  }
+  .f1 {
+    width: 82%;
+  }
+  .f1 input {
+    width: 98%;
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  .submit {
+    width: 40%;
+    font-size: 1rem;
+  }
+  .down2-section {
+    width: 92%;
+    position: relative;
+    left: 4%;
+    height: auto;
+  }
+  .dosc1 {
+    font-size: 3rem;
+    width: 90%;
+  }
+  .dosc2 {
+    width: 90%;
+  }
+  .dosc21 {
+    font-size: 1.7rem;
+    position: relative;
+    width: 90%;
+  }
+  .down3-section {
+    width: 82%;
+    position: relative;
+    left: 5%;
+  }
+  .dosp {
+    width: 100%;
+    flex-direction: row;
+  }
+  .dosp1 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .dosp2 {
+    width: 90%;
+    flex-direction: column;
+  }
+  .dos1 {
+    width: 90%;
+    padding: 2px;
+    margin: 2px;
+  }
+  .dos1-3 {
+    font-size: 1.4rem;
+  }
+  .dos1-2 {
+    font-size: 1.4rem;
+  }
+  .text-footer {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 385px) {
+  .navlist li a{
+    font-size: 1.4rem;
+  }
+  .l-btn{
+    font-size: 1.4rem;
+
+  }
+  .login-form{
+    width: 290px;
+    height: 200px;
+    margin: 6px;
+    padding: 12px;
+    left: 5%;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 70px;
+  }
+  .sl-1 {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .see-more-btn {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .down-section {
+    left:0%;
+  }
+  .dosc21 {
+    width: 85%;
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .login-form{
+    width: 240px;
+    height: 218px;
+    margin: 6px;
+    padding: 10px;
+    left: 0%;
+  }
+  .register {
+    font-size: 13px;
+    width: 70%;
+    left: 20%;
+  }
+  .rem1{
+    width:6%;
+    margin-bottom: 5%;
+  }
+  .down2-section {
+    left: 3%;
+  }
+}
+@media screen and (max-width: 305px) {
+  .down2-section {
+    left: 4%;
+  }
+  .dosc1 {
+    font-size: 2.5rem;
+    position: relative;
+    right: 50%;
+    width: 90%;
+  }
+  .dosc2 {
+    width: 90%;
+  }
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 50px;
+  }
+  .dsc1 {
+    display: none;
+  }
+  .down3-section {
+    height: 46vh;
+  }
+  .footer {
+    left:2%;
+  }
+}
+@media screen and (max-width: 285px) {
+  .sub-loc1,
+  .sub-loc2,
+  .sub-loc3,
+  .sub-loc4,
+  .sub-loc5,
+  .sub-loc6,
+  .sub-loc7,
+  .sub-loc8,
+  .sub-loc9,
+  .sub-loc10,
+  .sub-loc11,
+  .sub-loc12,
+  .sub-loc13,
+  .sub-loc14,
+  .sub-loc15,
+  .sub-loc16,
+  .sub-loc17,
+  .sub-loc18,
+  .sub-loc19,
+  .sub-loc20,
+  .sub-loc21 {
+    width: 60px;
+  }
+  .down-section {
+    margin-top: 175%;
+  }
+  .down-sec-1 {
+    font-size: 1.6rem;
+  }
+  .down-sec-2 {
+    font-size: 1.1rem;
+  }
+  .down2-section {
+    left: 8%;
+  }
+  .dos1-1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  .dosc {
+    left: 0%;
+  }
+  .down3-section {
+    left: 1%;
+  }
+  .footer {
+    left: 1%;
+  }
+}
+
+
+
