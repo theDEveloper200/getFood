@@ -1160,16 +1160,11 @@
     right: 0%;
   }
   .login-form{
-    width: 240px;
-    height: 218px;
-    margin: 6px;
-    padding: 10px;
-    left: 0%;
+    height: 250px;
   }
   .register {
     font-size: 13px;
     width: 70%;
-    left: 20%;
   }
   .rem1{
     width:6%;
