@@ -277,7 +277,7 @@
     background-size: 725px 450px;
   }
   .container {
-    height: 74vh;
+    height: 86vh;
   }
   .heading1 {
     font-size: 7rem;
@@ -320,7 +320,7 @@
   .ordering {
     width: 90%;
     /* flex-direction: column; */
-    margin-top: 75px;
+    margin-top: 140px;
     height: auto;
     position: relative;
     left:5%;
@@ -361,7 +361,7 @@
   .heading {
     width: 90%;
     position: relative;
-    /* right: 3%; */
+    right: -3%;
   }
   .sub-heading1 {
     font-size: 4.5rem;
@@ -402,7 +402,7 @@
     height: 412px;
   }
   .down-sec-1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .down-sec-2 {
     font-size: 2rem;
@@ -915,7 +915,7 @@
     text-align: center;
   }
   .container {
-    height: 52vh;
+    height: 65vh;
   }
   .collection {
     width: 100%;
@@ -964,10 +964,10 @@
     height: 412px;
   }
   .down-sec-1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .down-sec-2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .location-1 {
     width: 94%;
@@ -1021,14 +1021,16 @@
     right: 25%;
   }
   .dsc1 {
-    width: 20%;
+    width: 0%;
   }
   .dsc1 img {
     width: 20%;
   }
   .form {
-    width: 90%;
-  }
+    width: 100%;
+    position: relative;
+    left: 5%;
+}
   .f1 {
     width: 82%;
   }
@@ -1055,7 +1057,7 @@
     width: 90%;
   }
   .dosc21 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     position: relative;
     width: 90%;
   }
@@ -1085,7 +1087,7 @@
     font-size: 1.4rem;
   }
   .dos1-2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .text-footer {
     font-size: 1rem;
@@ -1127,7 +1129,8 @@
   .sub-loc19,
   .sub-loc20,
   .sub-loc21 {
-    width: 70px;
+    width: 80px;
+    border: 1px solid white;
   }
   .sl-1 {
     font-size: 1rem;
@@ -1135,7 +1138,8 @@
   }
   .see-more-btn {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 100; width: 80px;
+    border: 1px solid white;
   }
   .down-section {
     left:0%;
@@ -1146,6 +1150,21 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .container{
+    height: 60vh;
+  }
+  .sections{
+    flex-direction: column;
+    width: 98%;
+    margin-left: 0;
+    position: relative;
+    left: 1%;
+    height: auto;
+  }
+  .heading{
+    width: 85%;
+    right: 8%;
+  }
   .login-form{
     width: 240px;
     height: 218px;
@@ -1200,7 +1219,7 @@
   .sub-loc19,
   .sub-loc20,
   .sub-loc21 {
-    width: 50px;
+    width: 70px;
   }
   .dsc1 {
     display: none;
