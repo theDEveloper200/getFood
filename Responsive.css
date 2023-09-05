@@ -933,9 +933,6 @@
     flex-wrap: wrap;
     text-align: center;
   }
-  .container {
-    height: 65vh;
-  }
   .collection {
     width: 100%;
     height: auto;
@@ -1173,9 +1170,7 @@
   }
 }
 @media screen and (max-width: 360px) {
-  .container{
-    height: 60vh;
-  }
+ 
   .sections{
     flex-direction: column;
     width: 98%;
