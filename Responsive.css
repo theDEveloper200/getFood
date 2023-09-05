@@ -184,6 +184,10 @@
     width: 85%;
     left: 7%;
   }
+  .heading2{
+    width:80%;
+    left:8%;
+  }
 }
 @media screen and (max-width: 900px) {
   .navbar {
@@ -198,8 +202,8 @@
     left: 10%;
   }
   .heading2 {
-    width: 76%;
-    left: 10%;
+    width: 85%;
+    left: 6%;
   }
   .Search {
     width: 50%;
@@ -227,6 +231,21 @@
   }
   .login-form{
     left:48%;
+  }
+  .heading1{
+    margin-top: 60px;
+    width:38%;
+    left:34%;
+  }
+  .heading2{
+    width:90%;
+    left:4%;
+  }
+  /* .ordering{
+    margin-top: 56px;
+  } */
+  .m-txt{
+    margin-top: 24px;
   }
   .sub-loc1,
   .sub-loc2,
@@ -280,14 +299,14 @@
     height: 86vh;
   }
   .heading1 {
-    font-size: 7rem;
+    font-size: 6rem;
     width: 100%;
     margin-top: 66px;
     position: relative;
     left: 0%;
   }
   .heading2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: 100%;
     position: relative;
     left: 0;
@@ -316,16 +335,18 @@
   .lo-bar {
     width: 19px;
   }
-
+  .m-txt{
+    margin-top: 55px;
+    font-size: 1.8rem;
+  }
   .ordering {
     width: 90%;
     /* flex-direction: column; */
-    margin-top: 140px;
+    margin-top: 55px;
     height: auto;
     position: relative;
     left:5%;
   }
-
   .first {
     width: 33%;
     position: relative;
@@ -721,7 +742,6 @@
     font-size: 1.5rem;
     width: 103px;
   }
-
 }
 @media screen and (max-width: 475px) {
   .login-form{
@@ -887,7 +907,6 @@
     position: relative;
     right: 40%;
   }
-
   .first {
     width: 33%;
     position: relative;
@@ -913,6 +932,9 @@
     height: 28%;
     flex-wrap: wrap;
     text-align: center;
+  }
+  .container {
+    height: 65vh;
   }
   .collection {
     width: 100%;
@@ -1090,7 +1112,7 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 390px) {
   .navlist li a{
     font-size: 1.4rem;
   }
@@ -1104,6 +1126,10 @@
     margin: 6px;
     padding: 12px;
     left: 5%;
+  }
+  .m-txt{
+    margin-top: 35px;
+    font-size: 1.6rem;
   }
   .sub-loc1,
   .sub-loc2,
@@ -1147,6 +1173,9 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .container{
+    height: 60vh;
+  }
   .sections{
     flex-direction: column;
     width: 98%;
@@ -1157,17 +1186,22 @@
   }
   .heading{
     width: 85%;
-    right: 0%;
+    /* right: 8%; */
   }
   .login-form{
-    height: 250px;
+    height: 253px;
+    /* width: 240px;
+    margin: 6px;
+    padding: 10px;
+    left: 0%; */
   }
   .register {
     font-size: 13px;
     width: 70%;
+    left: 20%;
   }
   .goog{
-    width: 56%;
+    width:55%;
   }
   .rem1{
     width:6%;
@@ -1275,6 +1309,3 @@
     left: 1%;
   }
 }
-
-
-
