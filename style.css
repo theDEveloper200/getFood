@@ -14,10 +14,10 @@ html {
   background-repeat: no-repeat;
   background-size: 1670px 474px;
   position: relative;
-  transition: all 25s ease-in-out;
+  transition: all 30s ease-in-out;
   overflow: hidden;
 
-  animation: changeImage 25s ease-in-out infinite alternate-reverse backwards;
+  animation: changeImage 30s ease-in-out infinite alternate-reverse backwards;
 }
 @keyframes changeImage {
   0% {
@@ -147,7 +147,7 @@ html {
   font-size: 3.5rem;
   /* margin-top: 10px; */
   /* margin-left: 23%; */
-  width: 55%;
+  width: 75%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ html {
   color: white;
   margin: 30px;
   position: relative;
-  left: 23%;
+  left: 11%;
 }
 .Search {
   display: flex;
@@ -195,12 +195,20 @@ html {
   outline-style: none;
   margin: 0px;
 }
+.m-txt {
+  width: 100%;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  position: relative;
+  margin-top: 20px;
+  font-weight: bold;
+}
 .ordering {
   width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 25px;
   height: 252px;
   position: relative;
   left: 12%;
@@ -819,7 +827,7 @@ color: rgb(72, 72, 255);
   color: rgb(239, 57, 57);
 }
 .m {
-  background-color: rgb(255 83 83);
+  background-color: rgb(255, 109, 83);
   color: black;
   display: flex;
   width: 40px;
@@ -841,24 +849,25 @@ color: rgb(72, 72, 255);
   background-color: white;
 }
 .l-button {
-  width: 65px;
+  width: 65%;
   padding: 3px;
   transform: translate(-50%, -50%);
-  font-size: 13px;
-  background-color: rgb(62, 62, 245);
+  font-size: 17px;
+  background-color: rgb(74, 147, 255);
   position: absolute;
   justify-content: center;
   left: 50%;
   right: 50%;
   display: flex;
-  color: black;
+  color: white;
   border: 2px solid white;
   border-radius: 6px;
-  padding: 3px;
+  /* padding: 3px; */
   margin-top: 20px;
 }
 .l-button:hover {
-  background-color: rgb(157, 157, 163);
+  background-color: rgb(230, 230, 230);
+  color: rgb(35, 35, 35);
 }
 .register {
   font-size: 15px;
@@ -896,20 +905,3 @@ color: rgb(72, 72, 255);
 .goog p:hover{
   color: rgb(5, 78, 215);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
