@@ -935,6 +935,7 @@
   }
   .container {
     height: 65vh;
+    margin-top: 140px;
   }
   .collection {
     width: 100%;
