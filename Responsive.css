@@ -744,6 +744,9 @@
   }
 }
 @media screen and (max-width: 475px) {
+  .navlist li{
+  margin: 0;
+}
   .login-form{
     left:22%;
   }
@@ -1192,8 +1195,10 @@
   }
   .register {
     font-size: 13px;
-    width: 70%;
+    width: 60%;
     left: 20%;
+    display: flex;
+    justify-content: center;
   }
   .goog{
     width:55%;
