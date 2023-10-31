@@ -1275,6 +1275,13 @@
     font-size: 1.4rem;
 
   }
+  .login-form {
+    width: 290px;
+    height: 245px;
+    margin: 6px;
+    padding: 12px;
+    left: 5%;
+}
 
   .m-txt{
     margin-top: 16px;
