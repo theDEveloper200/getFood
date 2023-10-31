@@ -13,20 +13,22 @@
 <body>
     <section class="background">
         <nav class="navbar">
-            <ul class="navlist">
+            <div class="view-more">
+                <img src="img/justify-text.png" id="view" onclick="closeBox()" alt="icon">
+            </div>
+            <ul class="navlist" onclick="closeBox()">
                 <li class="Active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="signup.html">Sign up</a></li>
                 <li><button class="l-btn" onclick="closeModel()">Login</button></li>
-            </ul>
 
         </nav>
-        <label class="login-form "> 
+        <label class="login-form ">
             <h1 class="l1">Login</h1>
             <span class="m">&times</span>
             <div class="l-fo1">
                 <h2 class="u-n1">Username</h2>
-                <input type="text" class="user" placeholder="">
+                <input type="text" class="userin" placeholder="">
                 <h2 class="u-n1">Password</h2>
                 <div class="prd">
                     <input type="password" id="password" placeholder=" ">
@@ -45,9 +47,66 @@
             <p class="register">Not a member? <a href="signup.html"> Register</a></p>
             <div class="goog">
                 <img src="img/google.png" alt="image">
-                <p>Sign with Google</p> 
+                <p>Sign-in with Google</p>
             </div>
         </label>
+        <section class="view-section">
+            <span class="x">&times</span>
+            <div class="vm-sec">
+                <div class="usertp">
+                    <img src="img/user.png" class="user" alt="User">
+                    <div class="greet">
+                        <p>Hello,<span>User</span></p>
+                    </div>
+                </div>
+                <div class="account">
+                    <p>My Account</p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Your Orders </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Track Your Order </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Add to Bag </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Favorites </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Special Offers </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Dark Mode </p>
+
+                    <label class="Dkm">
+                        <label class="s-dkm"></label>
+                        <img src="img/sun.png" alt="icon" id="su">
+                        <img src="img/moon.png" alt="icon" id="mo">
+                    </label>
+                </div>
+                <div class="account">
+                    <p> Refer and Earn </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Help </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+                <div class="account">
+                    <p> Settings </p>
+                    <img src="img/right-arrow.png" alt="arrow">
+                </div>
+
+            </div>
+        </section>
 
         <section class="container" onclick="closeModel()">
             <h1 class="heading1">getFood</h1>
@@ -61,26 +120,30 @@
                 <img src="img/magnifying-glass-solid.svg" class="sr-bar" alt="image">
             </div>
             <div class="m-txt">
-                <marquee  direction="left">30% Discount on Wedenesday and 20% off on ₹800 </marquee>
+                <marquee direction="left">30% Discount on Wedenesday and 20% off on ₹8000 or above. </marquee>
             </div>
 
             <section class="ordering">
-                <div class="first">
-                    <div class="sec1">
-                        <img src="img/N1.jpg" id="image1" alt="image">
-                        <h3 class="sub-heading">Night Club</h3>
+                <div class="p-f1">
+                    <div class="first">
+                        <div class="sec1">
+                            <img src="img/N1.jpg" id="image1" alt="image">
+                            <h3 class="sub-heading">Night Club</h3>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="sec1">
+                            <img src="img/img5.jpg" id="image2" alt="image">
+                            <h3 class="sub-heading">Restaurant</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="second">
-                    <div class="sec1">
-                        <img src="img/img5.jpg" id="image2" alt="image">
-                        <h3 class="sub-heading">Restaurant</h3>
-                    </div>
-                </div>
-                <div class="third">
-                    <div class="sec1">
-                        <img src="img/C1.jpg" id="image3" alt="image">
-                        <h3 class="sub-heading">Cafe</h3>
+                <div class="p-f2">
+                    <div class="third">
+                        <div class="sec1">
+                            <img src="img/C1.jpg" id="image3" alt="image">
+                            <h3 class="sub-heading">Cafe</h3>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -262,7 +325,7 @@
                 <div class="dosc2">
                     <div class="dosc21 doosc21">Popular cuisines near me</div>
                     <div class="dosc21 doosc21">Popular restaurant types near me </div>
-                    <div class="dosc21 doosc21">Top restaurant chains  </div>
+                    <div class="dosc21 doosc21">Top restaurant chains </div>
                     <div class="dosc21 doosc21">Cities we Deliver to </div>
                 </div>
             </section>
@@ -282,7 +345,7 @@
                         <div class="dos1">
                             <p class="dos1-3">FOR ENTERPRISES</p>
                             <p class="dos1-2">getFood For Work</p>
-                            
+
                         </div>
                     </div>
                     <div class="dosp2">
@@ -290,7 +353,7 @@
                             <p class="dos1-3">FOR RESTAURANTS</p>
                             <p class="dos1-2">Partner With Us</p>
                             <p class="dos1-2">Apps For You</p>
-                            
+
                         </div>
                         <div class="dos1">
                             <p class="dos1-3">LEARN MORE</p>
@@ -298,7 +361,7 @@
                             <p class="dos1-2">Security</p>
                             <p class="dos1-2">Terms</p>
                             <p class="dos1-2">Sitemap</p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -313,4 +376,5 @@
     </section>
 </body>
 <script src="script.js"></script>
+
 </html>
