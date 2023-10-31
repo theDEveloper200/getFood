@@ -3,378 +3,645 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Responsive.css">
-    <title>getFood</title>
+    <title>signup form</title>
 </head>
 
 <body>
-    <section class="background">
-        <nav class="navbar">
-            <div class="view-more">
-                <img src="img/justify-text.png" id="view" onclick="closeBox()" alt="icon">
-            </div>
-            <ul class="navlist" onclick="closeBox()">
-                <li class="Active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="signup.html">Sign up</a></li>
-                <li><button class="l-btn" onclick="closeModel()">Login</button></li>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+        body {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+            background-size: 300% 300%;
+            animation: color 12s ease-in-out infinite;
+        }
+        @keyframes color {
+            0% {
+                background-position: 0 50%;
+            }
 
-        </nav>
-        <label class="login-form ">
-            <h1 class="l1">Login</h1>
-            <span class="m">&times</span>
-            <div class="l-fo1">
-                <h2 class="u-n1">Username</h2>
-                <input type="text" class="userin" placeholder="">
-                <h2 class="u-n1">Password</h2>
-                <div class="prd">
-                    <input type="password" id="password" placeholder=" ">
-                    <img src="img/close.icon.png" id="eye-icon" alt="image">
-                </div>
-            </div>
-            <div class="ni1">
-                <input type="checkbox" class="rem1">
-                <h3 class="rem">Remember me</h3>
-                <div class="fo-pass">
-                    <a href="">Forgot Password?</a>
-                </div>
-            </div>
+            50% {
+                background-position: 100% 50%;
+            }
 
-            <button class="l-button">Login </button>
-            <p class="register">Not a member? <a href="signup.html"> Register</a></p>
+            100% {
+                background-position: 0 50%;
+            }
+        }
+        .form {
+            width: 34%;
+            position: relative;
+            left: 30%;
+            margin-top: 60px;
+            height: 70vh;
+            /* top: 35%; */
+            /* margin: 20px; */
+            padding: 25px;
+            border: 3px solid #888282;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            box-shadow: 0px 0px 10px #ccc;
+
+
+        }
+        h1 {
+            width: 70%;
+            font-size: 3rem;
+            text-align: center;
+            left: 15%;
+            position: relative;
+            text-decoration: underline;
+            margin-top: 0px;
+        }
+        .check {
+            width: 60%;
+            display: flex;
+            margin: 0px;
+            position: relative;
+            /* justify-content: center; */
+            left: 20%;
+        }
+        .check input {
+            position: relative;
+            width: 4%;
+            /* margin: 10px; */
+            left: 0;
+            /* margin-left: -63px; */
+            /* right: 94%; */
+        }
+        .name {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .name input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+        }
+        .name img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .email {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .email input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+        }
+        .email img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .mobile {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .mobile input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+        }
+        .mobile img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        h2 {
+            font-size: 1.5rem;
+            width: 100%;
+            margin: 0;
+            margin-top: 2px;
+        }
+        .gender {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        h4 {
+            font-size: 1.5rem;
+            width: 27%;
+            /* position: relative; */
+            /* left: 10%; */
+            margin: 3px;
+            color: #848080;
+        }
+        .gender select {
+            width: 70%;
+            outline: none;
+            border: none;
+            font-size: 1.5rem;
+            opacity: 0.6;
+        }
+        .username {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .username input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+            margin: 0;
+        }
+        .username img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        .prwd1 {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .prwd1 input {
+            width: 87%;
+            position: relative;
+            left: 2%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+        }
+        .prwd2 {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+        }
+        .prwd2 input {
+            width: 87%;
+            position: relative;
+            left: 2%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+        }
+        .prwd1 img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            left: 0;
+            right: 88%;
+            opacity: 0.6;
+        }
+        .prwd2 img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            left: 0;
+            right: 88%;
+            opacity: 0.6;
+        }
+        .address,
+        .pincode {
+            position: relative;
+            left: 18%;
+            width: 62%;
+            display: flex;
+            border: 3px solid #d2d1d1;
+            border-radius: 10px;
+            /* padding: 0px; */
+            outline: none;
+            margin-bottom: 10px;
+
+        }
+        .address input,
+        .pincode input {
+            width: 87%;
+            position: relative;
+            left: 10%;
+            height: 86%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            border: none;
+            align-content: center;
+            flex-wrap: wrap;
+            outline: none;
+            margin: 0;
+        }
+        .address img {
+            width: 23px;
+            /* margin: 5px; */
+            padding: 0px;
+            position: relative;
+            /* left: 0; */
+            right: 88%;
+            opacity: 0.6;
+        }
+        button {
+            background-color: rgb(78, 178, 255);
+            color: white;
+            width: 50%;
+            position: relative;
+            font-size: 1.6rem;
+            left: 23%;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            /* margin-top: 6px; */
+        }
+        button:hover {
+            background-color: rgb(230, 230, 231);
+            color: rgb(47, 47, 47)
+        }
+        .member {
+            font-size: 1.5rem;
+            padding: 3px;
+            position: relative;
+            left: 20%;
+            width: 57%;
+            top: 2%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .member a {
+            font-size: 1.5rem;
+        }
+        .member a:hover {
+            color: #d2001a;
+        }
+        .goog {
+            width: 42%;
+            position: relative;
+            left: 27%;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            border: 1px solid gray;
+            border-radius: 6px;
+            margin: 0;
+            top: 4%;
+            padding: 3px;
+        }
+        .goog img {
+            width: 10%;
+            right: 8%;
+            position: relative;
+        }
+        .goog p {
+            font-size: 1.5rem;
+            margin: 0px;
+            color: #625e5e;
+            position: relative;
+            right: 0%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .goog p:hover {
+            color: rgb(5, 78, 215);
+        }
+        @media screen and (max-width:965px) {
+            .form {
+                width: 40%;
+                left: 26%;
+            }
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 6%;
+                width: 85%;
+            }
+            .pincode {
+                width: 85%;
+                left: 6%;
+            }
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 87%;
+
+            }
+            .member {
+                width: 62%;
+                left: 17%;
+            }
+            .goog {
+                width: 48%;
+            }
+        }
+        @media screen and (max-width:800px) {
+            .form {
+                width: 60%;
+                left: 12%;
+            }
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 6%;
+                width: 95%;
+            }
+            .pincode {
+                width: 95%;
+                left: 6%;
+            }
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 88%;
+
+            }
+            .member {
+                width: 63%;
+                left: 18%;
+            }
+            .goog {
+                width: 48%;
+            }
+        }
+
+        @media screen and (max-width:490px) {
+            .form {
+                width: 72%;
+                left: 6%;
+            }
+
+            .name,
+            .email,
+            .mobile,
+            .prwd1,
+            .prwd2,
+            .username,
+            .gender,
+            .address {
+                left: 3%;
+                width: 96%;
+            }
+
+            .pincode {
+                left: 3%;
+                width: 96%;
+            }
+
+            .name input,
+            .email input,
+            .mobile input,
+            .prwd1 input,
+            .prwd2 input,
+            .username input,
+            .gender select,
+            .address input {
+                width: 88%;
+
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .member {
+                width: 75%;
+                left: 10%;
+            }
+
+            .goog {
+                width: 52%;
+                left: 20%;
+            }
+
+        }
+        @media screen and (max-width:370px) {
+            .form {
+                width: 75%;
+                left: 2%;
+                height: 72vh;
+                margin-top: 45px;
+            }
+            .member {
+                width: 84%;
+                left: 5%;
+            }
+            .goog {
+                width: 60%;
+                left: 15%;
+            }
+        }
+    </style>
+    <form action="singnup">
+        <label class="form">
+            <h1>Sign-up</h1>
+            <div class="name">
+                <input type="text" placeholder="Name">
+                <img src="img/username-5.png">
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email-id">
+                <img src="img/email.png">
+            </div>
+            <div class="mobile">
+                <input type="number" placeholder="Mobile No.">
+                <img src="img/phone.png">
+            </div>
+            <div class="gender">
+                <h4>Gender </h4>
+                <select name="gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="username">
+                <input type="text" class="name" placeholder="Username">
+                <img src="img/username.png">
+            </div>
+            <div class="prwd1">
+                <input type="password" id="psd1" placeholder="Password">
+                <img src="img/close.icon.png" id="prd1">
+            </div>
+            <div class="prwd2">
+                <input type="password" id="psd2" placeholder="Confirm-password">
+                <img src="img/close.icon.png" id="prd2">
+            </div>
+            <div class="address">
+                <input type="text" class="name" placeholder="Address">
+                <img src="img/address.png">
+            </div>
+            <div class="pincode">
+                <input type="number" class="name" placeholder="Pincode">
+            </div>
+            <button>Sign-up</button>
+            <p class="member">Already have a account?<a href="index.html">Login</a></p>
             <div class="goog">
                 <img src="img/google.png" alt="image">
-                <p>Sign-in with Google</p>
+                <p>Sign with Google</p>
             </div>
         </label>
-        <section class="view-section">
-            <span class="x">&times</span>
-            <div class="vm-sec">
-                <div class="usertp">
-                    <img src="img/user.png" class="user" alt="User">
-                    <div class="greet">
-                        <p>Hello,<span>User</span></p>
-                    </div>
-                </div>
-                <div class="account">
-                    <p>My Account</p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Your Orders </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Track Your Order </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Add to Bag </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Favorites </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Special Offers </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Dark Mode </p>
+    </form>
+    <script>
 
-                    <label class="Dkm">
-                        <label class="s-dkm"></label>
-                        <img src="img/sun.png" alt="icon" id="su">
-                        <img src="img/moon.png" alt="icon" id="mo">
-                    </label>
-                </div>
-                <div class="account">
-                    <p> Refer and Earn </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Help </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
-                <div class="account">
-                    <p> Settings </p>
-                    <img src="img/right-arrow.png" alt="arrow">
-                </div>
+        let psd1 = document.getElementById("psd1");
+        let prd1 = document.getElementById("prd1");
+        let psd2 = document.getElementById("psd2");
+        let prd2 = document.getElementById("prd2");
 
-            </div>
-        </section>
+        prd1.onclick = function () {
+            if (psd1.type == "password") {
+                psd1.type = "text";
+                prd1.src = "img/open.icon.png";
+            }
+            else {
+                psd1.type = "password";
+                prd1.src = "img/close.icon.png";
+            }
+        }
 
-        <section class="container" onclick="closeModel()">
-            <h1 class="heading1">getFood</h1>
-            <h2 class="heading2">Discover the best Food & Drinks in Delhi Ncr</h2>
-            <div class="Search">
-                <div class="slm">
-                    <img src="img/location-dot-solid.svg" class="lo-bar" alt="image">
-                    <!-- <img src="img/drd1.png" class="drd" alt="image"> -->
-                </div>
-                <input type="search" name="search" id="search" placeholder="Search for Restaurant, Cuisine or a Dish">
-                <img src="img/magnifying-glass-solid.svg" class="sr-bar" alt="image">
-            </div>
-            <div class="m-txt">
-                <marquee direction="left">30% Discount on Wedenesday and 20% off on ₹8000 or above. </marquee>
-            </div>
+        prd2.onclick = function () {
+            if (psd2.type == "password") {
+                psd2.type = "text";
+                prd2.src = "img/open.icon.png";
+            }
+            else {
+                psd2.type = "password";
+                prd2.src = "img/close.icon.png";
+            }
+        }
 
-            <section class="ordering">
-                <div class="p-f1">
-                    <div class="first">
-                        <div class="sec1">
-                            <img src="img/N1.jpg" id="image1" alt="image">
-                            <h3 class="sub-heading">Night Club</h3>
-                        </div>
-                    </div>
-                    <div class="second">
-                        <div class="sec1">
-                            <img src="img/img5.jpg" id="image2" alt="image">
-                            <h3 class="sub-heading">Restaurant</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-f2">
-                    <div class="third">
-                        <div class="sec1">
-                            <img src="img/C1.jpg" id="image3" alt="image">
-                            <h3 class="sub-heading">Cafe</h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <section class="collection">
-            <div class="heading">
-                <h2 class="sub-heading1">Collections
-                    <div class="sub-heading2">
-                        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi, based on trends
-                        </p>
-                    </div>
-                </h2>
-            </div>
-            <section class="sections">
-                <section class="sections1">
-
-                    <section class="section-1">
-                        <div class="up-sec"></div>
-                        <div class="down-sec">
-                            <div class="down-sec-1">
-                                <p>10 Best insta-worthy Places</p>
-                            </div>
-                            <div class="down-sec-2">
-                                <p>Click here</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section-2">
-                        <div class="up-sec"></div>
-                        <div class="down-sec">
-                            <div class="down-sec-1">
-                                <p>10 Romantic Dining Places</p>
-                            </div>
-                            <div class="down-sec-2">
-                                <p>Click here</p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section class="sections2">
-
-                    <section class="section-3">
-                        <div class="up-sec"></div>
-                        <div class="down-sec">
-                            <div class="down-sec-1">
-                                <p>10 Best Open Cafes </p>
-                            </div>
-                            <div class="down-sec-2">
-                                <p>Click here</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section-4">
-                        <div class="up-sec"></div>
-                        <div class="down-sec">
-                            <div class="down-sec-1">
-                                <p>10 Best Party Places</p>
-                            </div>
-                            <div class="down-sec-2">
-                                <p>Click here</p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-            </section>
-        </section>
-        <section class="location-1">
-            <h2 class="sub-heading3">Popular locations in and around Delhi NCR</h2>
-            <div class="sub-loc ">
-                <div class="sub-loc1">
-                    <h5 class="sl-1">Mayur vihar</h5>
-                </div>
-                <div class="sub-loc2">
-                    <h5 class="sl-1">Rajouri Garden</h5>
-                </div>
-                <div class="sub-loc3">
-                    <h5 class="sl-1">Golf Course Road</h5>
-                </div>
-                <div class="sub-loc4">
-                    <h5 class="sl-1">Sector 29</h5>
-                </div>
-
-                <div class="sub-loc5">
-                    <h5 class="sl-1">Saket</h5>
-                </div>
-
-                <div class="sub-loc6">
-                    <h5 class="sl-1">DLF Phase 4</h5>
-                </div>
-
-                <div class="sub-loc7">
-                    <h5 class="sl-1">DLF Cyber City</h5>
-                </div>
-
-                <div class="sub-loc8">
-                    <h5 class="sl-1">Punjabi Bagh</h5>
-                </div>
-
-                <div class="sub-loc9">
-                    <h5 class="sl-1">Rohini</h5>
-                </div>
-                <span class="moreText">
-
-                    <div class="sub-loc10">
-                        <h5 class="sl-1">Connaught Place</h5>
-                    </div>
-
-                    <div class="sub-loc11">
-                        <h5 class="sl-1">Karol Bagh</h5>
-                    </div>
-
-                    <div class="sub-loc12">
-                        <h5 class="sl-1">Greater Kailash 2</h5>
-                    </div>
-
-                    <div class="sub-loc13">
-                        <h5 class="sl-1">Nehru Place</h5>
-                    </div>
-
-                    <div class="sub-loc14">
-                        <h5 class="sl-1">Kirti Nagar</h5>
-                    </div>
-
-                    <div class="sub-loc15">
-                        <h5 class="sl-1">MG Road</h5>
-                    </div>
-
-                    <div class="sub-loc16">
-                        <h5 class="sl-1">Delhi University-GTB Nagar</h5>
-                    </div>
-
-                    <div class="sub-loc17">
-                        <h5 class="sl-1">Hauz Khas Village</h5>
-                    </div>
-
-                    <div class="sub-loc18">
-                        <h5 class="sl-1">Pitampura</h5>
-                    </div>
-
-                    <div class="sub-loc19">
-                        <h5 class="sl-1">Malviya Nagar</h5>
-                    </div>
-
-                    <div class="sub-loc20">
-                        <h5 class="sl-1">Khan Market</h5>
-                    </div>
-                    <div class="sub-loc21">
-                        <h5 class="sl-1">Janpath</h5>
-                    </div>
-                </span>
-                <div class="see-more-btn">
-                    <h5 class="sl-1">See More</h5>
-                </div>
-
-
-            </div>
-        </section>
-        <section class="down-section">
-            <div class="dsc1">
-                <img src="img/d2.png" alt="image">
-            </div>
-
-            <label class="form">
-                <h4 class="order">Order Now</h4>
-                <div class="f1">
-                    <input type="text" class="order" placeholder="Search Your Meal">
-                    <input type="email" class="email" placeholder="Enter Email">
-                    <input type="number" class="Number" placeholder="Enter Mobile No.">
-                    <input type="text" class="address" placeholder="Enter Address">
-                    <button class="submit">Submit</button>
-            </label>
-
-            </div>
-        </section>
-        <section class="down2-section">
-            <section class="dosc">
-                <h3 class="dosc1">Explore options near me </h3>
-                <div class="dosc2">
-                    <div class="dosc21 doosc21">Popular cuisines near me</div>
-                    <div class="dosc21 doosc21">Popular restaurant types near me </div>
-                    <div class="dosc21 doosc21">Top restaurant chains </div>
-                    <div class="dosc21 doosc21">Cities we Deliver to </div>
-                </div>
-            </section>
-            <div class="down3-section" id="about">
-                <h2 class="dos1-1">getFood</h2>
-                <div class="dosp">
-                    <div class="dosp1">
-                        <div class="dos1">
-                            <p class="dos1-3">ABOUT getFood</p>
-                            <p class="dos1-2">Who We Are</p>
-                            <p class="dos1-2">Blog</p>
-                            <p class="dos1-2">Work With Us</p>
-                            <p class="dos1-2">Investor Relations</p>
-                            <p class="dos1-2">Report Fraud</p>
-                            <p class="dos1-2">Contact Us</p>
-                        </div>
-                        <div class="dos1">
-                            <p class="dos1-3">FOR ENTERPRISES</p>
-                            <p class="dos1-2">getFood For Work</p>
-
-                        </div>
-                    </div>
-                    <div class="dosp2">
-                        <div class="dos1">
-                            <p class="dos1-3">FOR RESTAURANTS</p>
-                            <p class="dos1-2">Partner With Us</p>
-                            <p class="dos1-2">Apps For You</p>
-
-                        </div>
-                        <div class="dos1">
-                            <p class="dos1-3">LEARN MORE</p>
-                            <p class="dos1-2">Privacy</p>
-                            <p class="dos1-2">Security</p>
-                            <p class="dos1-2">Terms</p>
-                            <p class="dos1-2">Sitemap</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <footer class="footer">
-                <p class="text-footer">
-                    CopyRight &copy; 2026 www.getFood.com . All Rights are Reserved
-                </p>
-            </footer>
-
-        </section>
-    </section>
+        function matchPassword() {
+            var psd1 = document.getElementById("psd1");
+            var psd2 = document.getElementById("psd2");
+            if (pw1 != pw2) {
+                alert("Passwords did not match");
+            }
+        }  
+    </script>
 </body>
-<script src="script.js"></script>
 
 </html>
