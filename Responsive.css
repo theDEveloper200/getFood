@@ -1260,7 +1260,7 @@
   }
   .background {
     max-width: 100%;
-    background-size: 420px 320px;
+    background-size: 420px 305px;
   }
   .ordering{
     margin-top: -10px;
@@ -1283,8 +1283,8 @@
     left: 5%;
   }
   .m-txt{
-    margin-top: 35px;
-    font-size: 1.6rem;
+    margin-top: 16px;
+    font-size: 1.5rem;
   }
   .sub-loc1,
   .sub-loc2,
