@@ -670,9 +670,6 @@
     margin: 6px;
     padding: 4px;
   }
-  .sub-heading1 {
-    font-size: 3.5rem;
-  }
   .sub-heading2 p {
     font-size: 1.8rem;
   }
@@ -1061,9 +1058,7 @@
   .heading {
     width: 90%;
   }
-  .sub-heading1 {
-    font-size: 4.2rem;
-  }
+
   .sub-heading2 p {
     font-size: 1.2rem;
   }
