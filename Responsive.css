@@ -1258,11 +1258,15 @@
   .navlist li a{
     font-size: 1.4rem;
   }
+  .ordering{
+    margin-top: 10px;
+  }
+  .p-f2{
+    margin-top: -10px;
+  }
   .l-btn{
     font-size: 1.4rem;
-  }
-  .ordering{
-    margin-top:15px;
+
   }
   .login-form{
     width: 290px;
@@ -1321,6 +1325,16 @@
 }
 @media screen and (max-width: 360px) {
 
+  .background {
+    max-width: 100%;
+    background-size: 420px 320px;
+  }
+  .ordering{
+    margin-top: -5;
+  }
+  .vm-sec{
+    height:83vh
+  }
   .sections{
     flex-direction: column;
     width: 98%;
@@ -1332,9 +1346,6 @@
   .heading{
     width: 85%;
     /* right: 8%; */
-  }
-  .p-f2{
-    margin-top: -10px;
   }
   .navlist {
     margin: 7px 3px 3px 3px;
