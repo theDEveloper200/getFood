@@ -1260,7 +1260,8 @@
   }
   .l-btn{
     font-size: 1.4rem;
-
+  .ordering{
+    margin-top:15px;
   }
   .login-form{
     width: 290px;
