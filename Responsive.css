@@ -1062,7 +1062,7 @@
     width: 90%;
   }
   .sub-heading1 {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
   }
   .sub-heading2 p {
     font-size: 1.2rem;
@@ -1263,29 +1263,28 @@
     background-size: 420px 305px;
   }
   .ordering{
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .vm-sec{
     height:83vh
   }
   .p-f2{
-    margin-top: -35px;
+    margin-top: -10px;
   }
   .l-btn{
     font-size: 1.4rem;
 
   }
-  .login-form {
+  .login-form{
     width: 290px;
     height: 245px;
     margin: 6px;
     padding: 12px;
     left: 5%;
-}
-
+  }
   .m-txt{
-    margin-top: 16px;
-    font-size: 1.5rem;
+    margin-top: 20px;
+    font-size: 1.6rem;
   }
   .sub-loc1,
   .sub-loc2,
@@ -1354,7 +1353,6 @@
   margin: 3px;
   padding: 1px
 }
-
   .register {
     font-size: 13px;
     width: 70%;
