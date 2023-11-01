@@ -826,6 +826,7 @@ color: rgb(72, 72, 255);
   border-radius: 15px;
   opacity: 0;
   z-index: 0.5;
+  
 }
 .showlogin-form {
   opacity: 1;
@@ -1011,10 +1012,12 @@ color: rgb(72, 72, 255);
   opacity: 0;
   z-index: 0.5;
   display: flex;
+  transform: translateX(-100%);
 }
 .showview-section{
   opacity: 1;
   z-index: 9;
+  transform: translateX(0);
 }
 .x{
   width: 10%;
