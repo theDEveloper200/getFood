@@ -500,11 +500,11 @@ body{
   }
 }
 .location-1 {
-  width: 75%;
+  width: 85%;
   height: 70vh;
   background-color: #f3f3f3;
   position: relative;
-  left: 12%;
+  left: 8%;
   border: 2px solid white;
   border-radius: 10px;
 }
@@ -561,7 +561,7 @@ body{
 }
 .location-2 {
   height: 125vh;
-  width: 75%;
+  width: 85%;
 }
 .see-more .moreText {
   /*  width:100%;
